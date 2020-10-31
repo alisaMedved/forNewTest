@@ -19,6 +19,8 @@ let component;
 
   it("should contain link", () => {
     const wrapper = component.find("a");
+    // console.log(wrapper);
+    // console.log(wrapper.length);
     expect(wrapper.length).toBe(1);
   });
 
